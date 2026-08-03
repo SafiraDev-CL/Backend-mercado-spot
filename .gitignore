@@ -1,0 +1,53 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### LOGS ###
+logs/
+
+### ENV ###
+.env
+.env.SUPERBASE_URL
+.env.SUPERBASE_USER
+.env.SUPERBASE_PASS
+
+### ENV DOCKER ###
+.env.docker
+.env.docker.SUPERBASE_URL
+.env.docker.SUPERBASE_USER
+.env.docker.SUPERBASE_PASS
+.env.docker.JWT_SECRET
+.env.docker.JWT_EXPIRATION
+.env.docker.SPRING_PROFILES_ACTIVE
+.env.docker.SERVER_PORT
+.env.docker.LOGGING_FILE_NAME
